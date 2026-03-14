@@ -1,0 +1,40 @@
+{
+  "name": "@filegod/file-tools",
+  "version": "1.0.0",
+  "description": "31 browser-based file processing tools. No upload. No server. MIT license.",
+  "main": "index.ts",
+  "types": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fileGOD/file-tools"
+  },
+  "homepage": "https://filegod.app",
+  "license": "MIT",
+  "keywords": [
+    "pdf",
+    "image",
+    "compress",
+    "convert",
+    "resize",
+    "crop",
+    "watermark",
+    "qr-code",
+    "ocr",
+    "browser",
+    "client-side",
+    "privacy",
+    "no-upload"
+  ],
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^4.0.0",
+    "tesseract.js": "^5.1.0",
+    "jszip": "^3.10.1",
+    "heic2any": "^0.0.4",
+    "qrcode": "^1.5.3",
+    "piexifjs": "^1.0.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  }
+}
